@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>CIPHER</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Abel|Cinzel|Dancing+Script|Exo+2|Inconsolata|Major+Mono+Display|Nunito|Nunito+Sans|Pacifico|Quicksand|ZCOOL+KuaiLe" rel="stylesheet"> 
+  </head>
+
+    <body>
+      <div id="container">
+
+    <div id="title">
+      <h1>Bem vindo ao CIPHER!</h1>
+    </div>
+
+    <div id="intro">
+    <h3>Em criptografia, a Cifra de César, é uma das mais simples e conhecidas técnicas de criptografia. É um tipo de cifra de substituição na qual cada letra do texto é substituída por outra, que se apresenta no alfabeto abaixo dela um número fixo de vezes. Por exemplo, com uma troca de três posições, A seria substituído por D, B se tornaria E, e assim por diante. O nome do método é em homenagem a Júlio César, que o usou para se comunicar com os seus generais.</h3>
+    <h3><br />Vamos lá, escolha a mensagem que deseja cifrar/decifrar e seu número de deslocamento.</h3>
+    </div>
+    
+    <div class="cont">
+    <div class="boxCifra1"> 
+      <div id="cifrarTitle"><h1>CIFRAR</h1></div>
+    <div>
+    <p>Deslocamento</p>
+    <input type="number" id="deslocId1" />
+    </div>
+    
+    <div>
+    <p>Mensagem a ser cifrada</p>
+    <input id="messageId" />
+    </div>
+
+    <div id="enviar">
+    <input onclick="send1();" type ="submit" id="submit1" value="Cifrar" />
+    </div>
+  </P>
+    <div id="msgCifrada"><br />Mensagem cifrada é: </div>
+    </div>
+  </p>
+    <div class="boxCifra2">
+        <div id="cifrarTitle"><h1>DECIFRAR</h1></div>
+    <div>
+      <p>Deslocamento</p>
+      <input type="number" id="deslocId2" />
+    </div>
+
+    <div>
+    <p>Mensagem a ser decifrada</p>  
+    <input id="messageIdDecifra" />
+    </div>
+
+    <div id="enviar2">
+    <input  onclick="send2();" type="submit" id="submit2" value="Decifrar" />
+    </div>
+  </P>
+    <div id="msgDecifrada"><br />Mensagem decifrada é: <br /></div> 
+      </div>
+      </div>
+
+    <script src="cipher.js"></script>
+    <script src="tests.js"></script>
+    
+    </div>
+  </body>
+</html>
