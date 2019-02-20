@@ -6,10 +6,15 @@
     <title>TWITTER</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
-    <body>
-        <span id="cont">50</span> Restantes <br>
-        <textarea onkeyup="limite_textarea(this.value)" id="texto"></textarea>
+  <body>
+    <h1>Bem vindo ao TWITTER!</h1>
+    <div class="form">
+      <textarea onkeyup="countChar(this.value)" type="text" id="textbox" placeholder="Escreva sua mensagem"></textarea>
+      <span id="cont">140</span> caracteres restantes
+      <input value="TWEET" id="tweet" type="submit"/>
+      <p id="display-message"></p>
+    </div>
 
-      <script src="teste.js"></script>
-    </body>
+    <script src="teste.js"></script>
+  </body>
 </html>
