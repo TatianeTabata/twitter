@@ -14,6 +14,9 @@ function countChar(valor) {
   let total = valor.length; 
   let resto = quant - total;       
   document.getElementById("cont").innerHTML = resto;
+  if(resto === 140){
+    document.getElementById("tweet").disabled = true;
+  }
   if(resto < quant){
     document.getElementById("tweet").disabled = false;
   }
