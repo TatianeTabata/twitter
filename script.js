@@ -34,7 +34,7 @@ let saida = document.getElementById("display-message");
 
 function myFunction(){  
   let newP = document.createElement('p');  
-  newP.innerHTML = entrada.value;
+  newP.innerHTML = entrada.value + "</br>" + moment().format('HH:mm');
   saida.appendChild(newP);    
   entrada.value = '';  
 }

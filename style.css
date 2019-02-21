@@ -7,7 +7,7 @@
 }
 
 body{
-  background-image: url("twitter.jpg");
+  background-image: url('twitter.jpg');
   background-repeat: no-repeat;
   background-size: 100%;
  
@@ -65,4 +65,5 @@ h1{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
   color: rgb(53, 52, 52);
   font-weight: bold;
+  font-style: italic;
 }
