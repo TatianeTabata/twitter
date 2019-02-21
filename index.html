@@ -5,16 +5,18 @@
     <meta name="viewport" content="width=device-width">
     <title>TWITTER</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Abel|Cinzel|Dancing+Script|Exo+2|Inconsolata|Major+Mono+Display|Nunito|Nunito+Sans|Pacifico|Quicksand|ZCOOL+KuaiLe" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Coiny" rel="stylesheet"> 
   </head>
     <body>
+      <container class="container">
       <h1>Bem vindo ao TWITTER!</h1>
       <form class="form">
-        <textarea onkeyup="countChar(this.value)" type="text" id="textbox" placeholder="Escreva sua mensagem"></textarea>
-        <span id="cont">140</span> caracteres restantes
+        <textarea onkeyup="countChar(this.value); autoResize()" type="text" id="textbox" placeholder="Escreva sua mensagem"></textarea>
+        <span id="cont" >140</span> caracteres restantes</br>
         <input value="TWEET" id="tweet" type="submit"/>
         <p id="display-message"></p>
       </form>
+      </container>
 
       <script src="script.js"></script>
     </body>
