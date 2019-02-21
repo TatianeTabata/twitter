@@ -4,7 +4,7 @@ function showMessage(event){
   alert("Sua mensagem não contem caracteres, escreva uma mensagem.");
   }
   event.preventDefault();
-  let message = document.getElementById("textbox").value;
+  //let message = document.getElementById("textbox").value;
 }
 
 document.getElementById("tweet").disabled = true;

@@ -7,7 +7,7 @@
 }
 
 body{
-  background-image: url("C:/Users/TATIANETabata/Desktop/Laboratoria/Projetos/twitter.jpg");
+  background-image: url("twitter.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
  
@@ -18,7 +18,7 @@ body{
   height: 80%;
   display: flex;
   flex-direction: column;
-  padding: 0% 10% 0% 30%;
+  padding: 0% 10% 0% 25%;
   margin-top: 10px;
 }
 
@@ -42,6 +42,12 @@ h1{
   border-style: none;
   width: 100%;
   height: 100%;
+}
+
+#cont{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: italic;
+  text-align: right;
 }
 
 #tweet{
